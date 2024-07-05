@@ -31,6 +31,7 @@ import { SettingsStatusInfoViewComponent } from './views/dashboard-view/views/se
 import { HmdAutomationsViewComponent } from './views/dashboard-view/views/hmd-automations-view/hmd-automations-view.component';
 import { JoinNotificationsViewComponent } from './views/dashboard-view/views/join-notifications-view/join-notifications-view.component';
 import { VRChatAvatarAutomationsViewComponent } from './views/dashboard-view/views/vrchat-avatar-automations-view/vrchat-avatar-automations-view.component';
+import { SettingsBluetoothViewComponent } from './views/dashboard-view/views/settings-bluetooth-view/settings-bluetooth-view.component';
 
 const routes: Routes = [
   {
@@ -145,6 +146,9 @@ const routes: Routes = [
             path: 'statusInfo',
             component: SettingsStatusInfoViewComponent,
           },
+          { 
+            path: 'bluetooth', 
+            component: SettingsBluetoothViewComponent },
           {
             path: '**',
             redirectTo: 'general',

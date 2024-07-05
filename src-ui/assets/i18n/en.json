@@ -318,7 +318,8 @@
         "statusInfo": "Status Information",
         "subMenu": "Settings",
         "updates": "Updates",
-        "vrchat": "VRChat Settings"
+        "vrchat": "VRChat Settings",
+        "bluetooth": "Bluetooth Settings"
       },
       "shutdownAutomations": "Shutdown Sequence",
       "sleepAnimations": "Sleep Animations",

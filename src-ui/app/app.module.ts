@@ -222,6 +222,7 @@ import { VRChatAvatarAutomationsViewComponent } from './views/dashboard-view/vie
 import { VrcAvatarSelectButtonComponent } from './components/vrc-avatar-select-button/vrc-avatar-select-button.component';
 import { VrcAvatarSelectModalComponent } from './components/vrc-avatar-select-modal/vrc-avatar-select-modal.component';
 import { VRChatAvatarAutomationsService } from './services/vrchat-avatar-automations.service';
+import { SettingsBluetoothViewComponent } from './views/dashboard-view/views/settings-bluetooth-view/settings-bluetooth-view.component';
 
 [
   localeEN,
@@ -358,6 +359,7 @@ export function createTranslateLoader(http: HttpClient) {
     VRChatAvatarAutomationsViewComponent,
     VrcAvatarSelectButtonComponent,
     VrcAvatarSelectModalComponent,
+    SettingsBluetoothViewComponent,
   ],
   imports: [
     CommonModule,

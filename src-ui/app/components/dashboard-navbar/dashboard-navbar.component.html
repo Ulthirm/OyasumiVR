@@ -108,7 +108,8 @@
           'settings/hotkeys',
           'settings/updates',
           'settings/integrations',
-          'settings/advanced'
+          'settings/advanced',
+          'settings/bluetooth'
         ])
       "
     >
@@ -354,5 +355,11 @@
       </div>
       <div class="menu-item-label" translate>comp.dashboard-navbar.settings.statusInfo</div>
     </div>
+    <!-- Add Bluetooth Menu Item -->
+    <div class="menu-item" [routerLinkActive]="'active'" [routerLink]="['settings', 'bluetooth']">
+      <div class="menu-item-icon-prefix">
+        <i class="material-icons-round">bluetooth</i>
+      </div>
+      <div class="menu-item-label" translate>comp.dashboard-navbar.settings.bluetooth</div>
   </div>
 </div>
