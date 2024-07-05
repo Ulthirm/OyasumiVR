@@ -1843,6 +1843,17 @@
         "DEV": "As you are running a development build of OyasumiVR, updates have been disabled.\nIf you want to install a new(er) version of OyasumiVR, please download and run the installer manually.",
         "STEAM": "You have installed the Steam version of OyasumiVR.\nNew OyasumiVR updates are therefore provided through Steam!"
       }
+    },
+    "bluetooth": {
+      "title": "Bluetooth Settings",
+      "connection": {
+        "title": "Bluetooth Connection",
+        "status": {
+          "title": "Connection Status",
+          "description": "Manage your bluetooth connection",
+          "action": "Connect"
+        }
+      }
     }
   },
   "shared": {

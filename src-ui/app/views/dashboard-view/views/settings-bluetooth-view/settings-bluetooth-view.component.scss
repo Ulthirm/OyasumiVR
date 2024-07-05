@@ -1,0 +1,48 @@
+:host {
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.pane {
+  width: 100%;
+}
+
+.pane-content {
+  padding: 2em;
+  overflow-y: overlay;
+  width: 100%;
+}
+
+.warning-box {
+  border: 2px solid yellow;
+  color: #856404;
+  padding: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.action-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+
+  p {
+    margin: 0;
+  }
+}
+
+button,
+a {
+  i {
+    font-size: 1.25em;
+  }
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}

@@ -1,3 +1,35 @@
-<!-- settings-bluetooth.component.html -->
-<h1>Bluetooth Settings</h1>
-<p>Manage your Bluetooth settings here.</p>
+<div class="pane">
+  <div class="warning-box">
+    <strong>CAUTION:</strong> Lighthouse Power Management from OyasumiVR uses Bluetooth.
+    This may interrupt your connection with your devices. We will attempt to automatically save and reconnect your devices.
+  </div>
+  <div class="pane-title" translate>settings.bluetooth.title</div>
+  <div class="pane-content">
+    <div class="setting-category">
+      <h2 translate>settings.bluetooth.connection.title</h2>
+      <div class="settings">
+        <div class="setting-row">
+          <div class="setting-row-label" translate>
+            <span translate>settings.bluetooth.connection.status.title</span>
+            <span translate>settings.bluetooth.connection.status.description</span>
+          </div>
+          <div class="setting-row-action">
+            <button class="btn btn-primary" (click)="connectBluetooth()">
+              <i class="material-icons-round">bluetooth</i>
+              <span translate>settings.bluetooth.connection.status.action</span>
+            </button>
+          </div>
+        </div>
+        <div class="setting-row">
+          <div class="setting-row-label">
+            <span>Status: {{ status }}</span>
+          </div>
+          <div class="setting-row-action">
+            <button class="btn btn-info" (click)="getBluetoothStatus()">Refresh Status</button>
+          </div>
+        </div>
+        <!-- Additional settings go here -->
+      </div>
+    </div>
+  </div>
+</div>
